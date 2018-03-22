@@ -1,0 +1,23 @@
+.hand {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.hand__card {
+  background-image: url("../img/Cards/_Back.png");
+  background-size: cover;
+  background-origin: border-box;
+  width: 140px;
+  height: 196px;
+  margin: 5px;
+}
+
+.hand__card--over {
+  position: relative;
+}

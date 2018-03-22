@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Black Jack Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="table">
+
+      <div class="hand hand--player">
+      </div>
+
+      <div class="score">
+        <div class="score__hand--player">
+          You: <span>0</span>
+        </div>
+        <div class="score__controls">
+          <button type="button" name="more" disabled>Ещё карту</button>
+          <button type="button" name="quite" disabled>Хватит</button>
+        </div>
+        <div class="score__hand--computer">
+          Comp: <span>0</span>
+        </div>
+      </div>
+
+      <div class="hand hand--computer">
+        <!-- <div class="hand__slot">
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+    <div class="popup popup--new">
+      <p>Добро пожаловать в игру!</p>
+      <button type="button" name="button">Начать</button>
+    </div>
+
+    <div class="popup popup--resume">
+      <div class="popup_description">
+        <p>Вы выиграли.</p>
+      </div>
+      <button type="button" name="button">Сыграть ещё</button>
+    </div>
+
+    <script type="text/javascript" src="js/script.js">
+
+    </script>
+</body>
+</html>

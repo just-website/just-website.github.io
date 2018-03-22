@@ -1,0 +1,11 @@
+.table {
+  width: 100%;
+  height: 600px;
+  background-color: rgb(50, 160, 100);
+  border: 50px solid rgb(125, 60, 45);
+  border-radius: 200px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,36 @@
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.score__hand--player,
+.score__hand--computer {
+  flex-basis: 25%;
+}
+
+.score__hand--computer {
+  text-align: right;
+}
+
+.score__controls {
+  flex-basis: 50%;
+  text-align: center;
+
+  button {
+    width: 150px;
+    padding: 15px 30px;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid green;
+    background-color: #ffffff;
+    font-size: 16px;
+
+    &:active {
+      background-color: #cccccc;
+    }
+  }
+}
