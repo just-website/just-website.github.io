@@ -27,7 +27,7 @@ function newGame() {
     showScore(playerField, playerScoreField);
     checkScore(playerScoreField, 21);
   }
-  quiteButton.addEventListener('click', function() {
+  quiteButton.onclick = function() {
     togleButtons(true);
     while (Number(playerScoreField.textContent) >=  Number(computerScoreField.textContent)) { // цикл, пока очки компьютера меньше очков игрока
       addCard(randomCard, computerField);
@@ -35,7 +35,7 @@ function newGame() {
       checkScore(playerScoreField, computerScoreField);
     };
     endGame(Number(playerScoreField.textContent), Number(computerScoreField.textContent))
-  })
+  }
 }
 
 function endGame(score1, score2) {
@@ -44,14 +44,14 @@ function endGame(score1, score2) {
   var massage = popup.querySelector('p');
   var resumeButton = document.querySelector('.popup--resume button');
   if (score1 === 21 || score2 > 21 || score1 > score2) {
-    massage.innerHTML = 'Вы выиграли!</br>У вас ' + score1 + ' очков.</br> У соперника ' + score2 + ' очков.';
+    massage.innerHTML = 'Вы выиграли!</br>У вас ' + score1 + ' очков.</br>У соперника ' + score2 + ' очков.';
   }
   else {
-    score1 > 21 ?  massage.innerHTML = 'У вас перебор.' : massage.innerHTML = 'Вы проиграли.</br>У вас ' + score1 + ' очков';
+    score1 > 21 ?  massage.innerHTML = 'У вас перебор.' : massage.innerHTML = 'Вы проиграли.</br>У вас ' + score1 + ' очков.</br>У соперника ' + score2 + ' очков.';
   }
   popup.classList.add('popup--active');
   resumeButton.addEventListener('click', function() {
-    debugger;
+    // debugger;
     clearField();
     newGame();
     togleButtons(false);
