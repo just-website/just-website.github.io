@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprum.woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumbold.woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumbolditalic.woff");
+  font-weight: bold;
+  font-style: italic; }
+@font-face {
+  font-family: Cuprum;
+  src: url("../fonts/cuprumitalic.woff");
+  font-weight: normal;
+  font-style: italic; }
+@font-face {
+  font-family: PTsans;
+  src: url("../fonts/ptsans.woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: PTsans;
+  src: url("../fonts/ptsansbold.woff");
+  font-weight: bold;
+  font-style: normal; }
+
+/*# sourceMappingURL=font.css.map */

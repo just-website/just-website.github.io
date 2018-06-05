@@ -1,0 +1,350 @@
+.main-header_catalog
+    .cart
+        background-color: #ee3643
+.header-account
+    float: right
+    width: 305px
+    h3
+        margin: 0
+        padding-top: 10px
+        padding-bottom: 10px
+        padding-left: 45px
+        font-size: 21px
+        background-color: #fff
+        color: #000
+        margin-bottom: 10px
+        position: relative
+        &::before
+            content: '\e80b'
+            font-family: 'fontello'
+            position: absolute
+            left: 15px
+            opacity: .3
+    .btn-exit
+        position: relative
+        &::before
+            content: '\e805'
+            font-family: 'fontello'
+            position: absolute
+            left: 30px
+            top: 1px
+            opacity: .3
+    .btn
+        font-size: 14px
+        display: inline
+        color: #32425c
+        text-decoration: underline
+        font-size: 16px
+        line-height: 18px
+        background-color: inherit
+        text-transform: none
+        &:hover
+            color: #ee3643
+    .dot
+        top: -2px
+        right: 0
+        display: inline-block
+        content: ''
+        position: relative
+        border: 3px solid #32425c
+        border-radius: 50%
+
+.top-nav_catalog
+    ul
+        list-style: none
+        margin: 0
+        padding: 20px 0
+    .list-menu
+        position: relative
+        font-size: 13px
+        line-height: 18px
+        text-transform: uppercase
+        padding-left: 19px
+        padding-right: 15px
+        font-family: 'PTsans'
+        color: #000
+        text-decoration: none
+        &::after
+            content: '\f105'
+            font-family: 'fontello'
+            position: absolute
+            left: 0
+            top: -1px
+            opacity: .3
+            font-size: 17px
+            cursor: default
+    li
+        display: inline-block
+        &:first-child a
+            padding-left: 0
+            padding-right: 30px
+            font-size: 0
+            &::before
+                content: '\e80a'
+                font-family: 'fontello'
+                position: absolute
+                left: 0
+                top: -15px
+                opacity: .3
+                font-size: 23px
+            &::after
+                content: ''
+
+.catalog-content h2
+    font-size: 30px
+    background-color: #f2f6f8
+    color: #32425c
+    padding: 30px
+    text-transform: uppercase
+    line-height: 30px
+    margin: 0
+    margin-bottom: 20px
+
+.form-filter
+    width: 220px
+    float: left
+.filter,
+.catalog-sort
+    background-color: #f7f3ec
+    font-family: 'PTsans'
+    font-size: 13px
+    line-height: 18px
+    text-transform: uppercase
+    display: inline-block
+    border-radius: 4px
+    width: 200px
+    padding-left: 20px
+fieldset
+    border: none
+    padding: 0
+    margin: 0
+.form-prise
+    font-size: 0
+    border-bottom: 1px solid #e5e5e5
+    padding-bottom: 25px
+    h3
+        font-size: 17px
+        line-height: 30px
+        font-family: 'PTsans'
+        padding-top: 15px
+        padding-bottom: 15px
+    .range-controls
+        background-color: #f7f3ec
+        height: 80px
+        border-radius: 4px
+        margin-bottom: 10px
+    input[name='min-prise'],
+    input[name='max-prise']
+        text-align: center
+        border: none
+        font-family: 'PTsans'
+        font-size: 15px
+        line-height: 20px
+        padding: 10px
+        background-color: #f7f3ec
+        width: 85px
+        display: inline-block
+        border-radius: 4px
+    span
+        font-size: 16px
+        padding: 2px
+.form-manuf
+    border-bottom: 1px solid #e5e5e5
+    padding-bottom: 25px
+.form-supply,
+.form-manuf
+    h3,
+    label
+        font-size: 17px
+        line-height: 20px
+        font-family: 'PTsans'
+        padding-top: 15px
+        padding-bottom: 15px
+        display: inline-block
+        width: 100%
+        margin: 0
+    label
+        padding-top: 0
+    h3
+        padding-top: 25px
+        padding-bottom: 25px
+input[name='submit']
+    font-family: 'PTsans'
+    font-size: 14px
+    line-height: 18px
+    margin-top: 70px
+    border: 1px solid #e5e5e5
+    border-radius: 4px
+    padding: 10px 35px
+    background-color: inherit
+    text-transform: uppercase
+    cursor: pointer
+    &:hover
+        border-color: #bdc6ca
+    &:active
+        border-color: #ee3643
+        outline: none
+.catalog-sort
+    width: 680px
+    float: right
+    .sort-list
+        padding: 0
+        display: inline-block
+        margin-right: 140px
+    .sort-type
+        color: #acaaa5
+        text-decoration: none
+        border-bottom: 1px dashed #ee3643
+        margin-right: 50px
+        &:hover
+            color: #222
+            border-bottom: 1px solid #ee3643
+    .sort-type.active
+        border-bottom: none
+        color: #ee3643
+    .sort-select
+        visibility: hidden
+        position: absolute
+    .up::after
+        content: '\f106'
+        font-family: 'fontello'
+        position: absolute
+        left: 0px
+        top: 15px
+        opacity: 1
+        font-size: 23px
+        display: block
+        visibility: initial
+        color: #ee3643
+        cursor: pointer
+    .up:hover::after
+        color: #222
+    .down::after
+        content: '\f107'
+        font-family: 'fontello'
+        position: absolute
+        left: 30px
+        top: 15px
+        opacity: 1
+        font-size: 23px
+        display: block
+        visibility: initial
+        color: #ee3643
+        cursor: pointer
+    .down:hover::after
+        color: #222
+
+.catalog-wraper
+    width: 700px
+    float: right
+    font-size: 0
+    padding-bottom: 60px
+    .card-goods
+        margin-top: 20px
+        margin-right: 20px
+        &:nth-child(3n)
+            margin-right: 0
+.bottom-nav ul
+    list-style: none
+    font-size: 14px
+    font-family: 'PTsans'
+    line-height: 18px
+    text-transform: uppercase
+    margin: 0
+    padding: 0
+    margin-top: 50px
+
+    li
+        display: inline-block
+        padding-right: 10px
+    button
+        padding: 10px 14px
+        background-color: inherit
+        border: 1px solid #e5e5e5
+        border-radius: 4px
+        cursor: pointer
+        &.active
+            background-color: #ee3643
+            color: #fff
+            border-color: #ee3643
+        &:hover:not(.active)
+            border-color: #bdc6ca
+        &:active
+            border-color: #ee3643
+            outline: none
+    .nav-btn-next
+        padding-right: 30px
+        padding-left: 30px
+        text-transform: uppercase
+
+.about-tools
+    background-color: #f2f6f8
+    padding-bottom: 40px
+    padding-top: 40px
+    h2
+        font-size: 30px
+        margin: 0
+
+    p
+        font-family: 'PTsans'
+        font-size: 13px
+        line-height: 24px
+        padding-top: 35px
+        padding-bottom: 35px
+        margin: 0
+.popup-add
+    height: 265px
+    padding: 0
+    display: none
+    .added
+        font-size: 18px
+        text-align: center
+        margin: 0 auto
+        padding-top: 40px
+        padding-bottom: 40px
+        padding-left: 50px
+        background-image: url('../Images/maket/buyOk.png')
+        background-repeat: no-repeat
+        background-position: 75px 50%
+        position: relative
+    .close
+        cursor: pointer
+        width: 30px
+        height: 30px
+        position: absolute
+        //background-color: gray
+        right: 10px
+        top: 10px
+        &::before
+            display: block
+            position: absolute
+            content: ''
+            width: 30px
+            height: 5px
+            background-color: #ee3643
+            left: 0
+            top: 15px
+            transform: rotate(45deg)
+        &::after
+            display: block
+            position: absolute
+            content: ''
+            width: 30px
+            height: 5px
+            background-color: #ee3643
+            left: 0
+            top: 15px
+            transform: rotate(-45deg)
+    .btn-wrap
+        margin: 0
+        button
+            width: 220px
+            margin-right: 10px
+            margin-left: 10px
+        .return
+            color: #000
+            background-color: #fff
+            &:hover
+                opacity: .65
+.show
+    display: block
