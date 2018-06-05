@@ -1,31 +1,31 @@
 @font-face {
   font-family: Cuprum;
-  src: url("../fonts/cuprum.woff");
+  src: url("../Fonts/cuprum.woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: Cuprum;
-  src: url("../fonts/cuprumbold.woff");
+  src: url("../Fonts/cuprumbold.woff");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: Cuprum;
-  src: url("../fonts/cuprumbolditalic.woff");
+  src: url("../Fonts/cuprumbolditalic.woff");
   font-weight: bold;
   font-style: italic; }
 @font-face {
   font-family: Cuprum;
-  src: url("../fonts/cuprumitalic.woff");
+  src: url("../Fonts/cuprumitalic.woff");
   font-weight: normal;
   font-style: italic; }
 @font-face {
   font-family: PTsans;
-  src: url("../fonts/ptsans.woff");
+  src: url("../Fonts/ptsans.woff");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: PTsans;
-  src: url("../fonts/ptsansbold.woff");
+  src: url("../Fonts/ptsansbold.woff");
   font-weight: bold;
   font-style: normal; }
 
