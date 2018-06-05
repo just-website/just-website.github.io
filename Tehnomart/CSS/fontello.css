@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello.woff?82100587') format('woff');
+  src: url('../Fonts/fontello.woff?82100587') format('woff');
 }
 /* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
 /* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
