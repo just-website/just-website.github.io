@@ -25,6 +25,9 @@ body {
   padding: 40px;
   margin: 0;
   text-transform: uppercase; }
+  @media (max-width: 659px) {
+    .main__header {
+      font-size: 33px; } }
 
 .main__orders {
   width: 1024px;
@@ -42,7 +45,7 @@ body {
       text-align: center; } }
   @media (max-width: 659px) {
     .main__orders {
-      width: 300px;
+      width: 290px;
       padding-left: 10px;
       padding-right: 10px; } }
 
@@ -55,6 +58,9 @@ body {
     color: #ff5e42;
     border-bottom: 1px dashed #ff5e42;
     cursor: pointer; }
+  @media (max-width: 659px) {
+    .main__sort {
+      font-size: 15px; } }
 
 .container {
   text-align: center;
@@ -72,7 +78,7 @@ body {
       padding-right: 20px; } }
   @media (max-width: 659px) {
     .container {
-      width: 320px;
+      width: 290px;
       padding-left: 10px;
       padding-right: 10px; } }
 
@@ -104,6 +110,9 @@ body {
     .order-card:nth-child(3n) {
       margin-right: 20px; }
     .order-card:nth-child(2n) {
+      margin-right: 0; } }
+  @media (max-width: 659px) {
+    .order-card:nth-child(1n) {
       margin-right: 0; } }
 
 .order-card:hover {
@@ -205,7 +214,7 @@ body {
       width: 628px; } }
   @media (max-width: 660px) {
     .footer .container {
-      width: 320px; } }
+      width: 270px; } }
 
 .footer__email {
   display: block;
