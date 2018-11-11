@@ -45,7 +45,7 @@ const randomFact = selector => {
   const getRandomFact = value => {
     const num = Number(value.trim());
     const url = dataMode ? `http://numbersapi.com/${num}/${dataMode}` : `http://numbersapi.com/${num}`;
-    return fetch(url).then(data => data.text()).catch(error => error);
+    return fetch(`https://cors-anywhere.herokuapp.com/${url}`).then(data => data.text()).catch(error => error);
   };
 
   const translate = text => {
@@ -56,7 +56,6 @@ const randomFact = selector => {
 
   input.addEventListener('input', function () {
     this.value = this.value.trim();
-    console.log(typeof this.value);
     if (!checkNumber(this.value)) this.value = this.value.slice(0, -1);
   });
   button.addEventListener('click', async function () {
