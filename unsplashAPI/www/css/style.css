@@ -144,17 +144,19 @@ header:after {
   overflow: scroll; }
 
 .popup {
-  position: absolute;
+  position: relative;
   max-width: 660px;
   top: 0;
   background-color: #ffffff;
-  padding: 40px;
+  padding: 40px 20px;
   font-weight: bold;
   margin-top: 160px;
   margin-bottom: 100px; }
   @media (min-width: 680px) {
     .popup {
-      left: calc(50% - 330px); } }
+      padding: 40px;
+      margin-left: auto;
+      margin-right: auto; } }
   .popup .popup__dscr {
     display: flex;
     flex-wrap: wrap;
